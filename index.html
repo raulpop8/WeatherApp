@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Raul Pop">
+    <meta name="description" content="simple looking weather app; it shows the minimum necesary information about the curent weather.">
+    <meta name="keywords" content="weather, simple, minimal, location, sun, moon, clouds, rain, storm, snow">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="script.js" defer></script>
+    
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <!-- BoxIcon Icons -->
+    <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet">
+    
+    <title>Minimal Weather App</title>
+  </head>
+
+  <body>
+    <div class="wrapper">
+
+      <section class="input-part">
+        <p class="info-txt"></p> <!-- text to be updated from js -->
+        <input type="text" placeholder="Enter city name" spellcheck="false" required>
+        <button><i class='bx bxs-navigation'></i>Current Location</button>
+      </section>
+
+      <section class="weather-part">
+        <img src="#" alt="Weather Icon">
+        
+        <div class="temp">
+          <span class="numb">_</span>
+          <span class="deg">&deg;C</span>
+        </div>
+        
+        <div class="weather">_ _</div>
+        
+        <div class="location">
+          <i class="bx bx-map"></i>
+          <span>_, _</span>
+        </div>
+
+        <div class="bottom-details">
+          <div class="column feels">
+            <i class="bx bxs-thermometer"></i>
+            <div class="details">
+              <div class="temp">
+                <span class="numb-2">_</span>
+                <span class="deg">&deg;C</span>
+              </div>
+              <p>Feels like</p>
+            </div>
+          </div>
+
+          <div class="column humidity">
+            <i class="bx bxs-droplet-half"></i>
+            <div class="details">
+              <span class="numb">_</span>
+              <p>Humidity</p>
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+    </div>
+    
+  </body>
+</html>
