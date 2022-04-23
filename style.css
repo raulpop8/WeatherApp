@@ -7,7 +7,6 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
-  /* border: 1px solid black; */
 }
 
 body {
@@ -16,7 +15,7 @@ body {
   justify-content: center;
   align-items: center;
 
-  background: linear-gradient(-45deg, #2193b0, #6dd5ed);
+  background: linear-gradient(-45deg, #2c6cbc, #71c3f7, #f6f6f6);
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
   background-position: top;
