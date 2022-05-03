@@ -1,5 +1,4 @@
 <h1 align="center">Weather App</h1>
-<img src="https://raulpop.ro/res/project_weather2.jpg" alt="Weather Banner" style="float: center;" />
 <p align="center">simple looking weather app; it shows the minimum necessary information about the current weather.</p>
 
 ---
